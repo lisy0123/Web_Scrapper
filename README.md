@@ -1,6 +1,6 @@
 # Web Scrapper
 
-Web scrapper with python
+Web Scrapper with Python
 
 **:heavy_check_mark: Challenge Date: July 12, 2021 ~ July 25, 2021**
 
