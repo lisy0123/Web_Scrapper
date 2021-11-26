@@ -1,0 +1,209 @@
+@font-face {
+	font-family: 'abster';
+	src: url('abster-webfont.woft2') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {	
+	background: radial-gradient(#333, black) fixed;
+}
+.container {
+	max-width: 100%;
+	height: 100vh;
+	align-items: center;
+}
+header {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	width: 93%;
+	height: 5.5rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: .5rem;
+}
+header>a {
+	font-size: 1.8rem;
+	font-weight: bolder;
+	text-decoration: none;
+	color: #ccc;
+}
+header>a:hover {
+	color: white;
+}
+header>ul {
+	display: flex;
+	padding: .4rem;
+}
+header>ul>li {
+	display: inline-block;
+}
+header>ul>li:first-child {
+	margin-right: 1.5rem;
+}
+header>ul>li:last-child {
+	margin-left: 1.5rem;
+}
+header>ul>li>a {
+	text-decoration: none;
+	font-size: .9rem;
+	font-weight: bold;
+	color: #aaa;
+	padding-bottom: 1px;
+}
+header>ul>li>a:hover {
+	color: white;
+	border-bottom: 5px solid white;
+}
+section {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position: absolute;
+	left:50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+section>p {
+	font-size: 2.5rem;
+	font-weight: 900;
+	color: white;
+	margin-bottom: 0.8rem;
+}
+section>form>input[type="text"] {
+	width: 28rem;
+	height: 3rem;
+	clear: none;
+	float: none;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	font-size: 1.4rem;
+	font-weight: 200;
+	color: #ddd;
+	caret-color: #ddd;
+	text-align: center;
+	border-bottom: 2px solid #777;
+	box-shadow: 0 .5px 0 0 rgba(119, 119, 119, 0.5);
+	position: relative;
+}
+section>form>input[type="text"]:focus {
+	border-bottom: 2px solid #ddd;
+	box-shadow: 0 .5px 0 0 rgba(221, 221, 221, 0.5);
+}
+.result {
+	width: 75%;
+	height: 6rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.result>h1 {
+	font-size: 2.4rem;
+	color: white;
+	font-weight: bolder;
+	padding: .5rem;
+}
+.result>p {
+	font-size: 1.3rem;
+	color: #ddd;
+	margin-bottom: .5rem;
+	font-weight: bold;
+}
+.csv {
+	width: 95%;
+	height: 3rem;
+	margin: 0 auto;
+	align-items:flex-end;
+	display: flex;
+	flex-direction: column;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1.2rem;
+	font-weight:bold;
+	text-align: center;
+	padding: .2rem;
+}
+.csv>a {
+	display: inline-block;
+	text-decoration: none;
+	margin: auto;
+	color: #ccc;
+	padding-bottom: 1px;
+}
+.csv>a:hover {
+	color: white;
+	border-bottom: 2px solid white;
+}
+table {
+	width: 100%;
+	padding: .5rem;
+	justify-content: center;
+	text-align: center;
+	color: #ccc;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	border-collapse: collapse;
+}
+table th {
+	height: 3.5rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+table td {
+	height: 3rem;
+	border-bottom: 1.5px solid #777;
+	font-size: 1rem;
+}
+table td>a {
+	color: rgb(200, 200, 0);
+}
+table td>a:hover {
+	color: rgb(255, 255, 0);
+}
+footer {
+	position:fixed;
+	margin: 0 auto;
+	background-color: #111;
+	border-radius: 5rem;
+	width: 50%;
+	height: 1.5rem;
+	left:50%;
+	top: 96%;
+	transform: translate(-50%, -96%);
+	text-align: center;
+	align-items: center;
+	justify-items: center;
+	font-size: 1rem;
+	color: #777;
+	margin: auto;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer>a {
+	color: #bbb;
+}
+footer>a:hover {
+	color: white;
+}
+@media screen and (max-width:950px) {
+	header {
+		flex-direction: column;
+	}
+	.result {
+		flex-direction: column;
+	}
+	table th {
+		font-size: 1rem;
+	}
+	table td {
+		font-size: .8rem;
+	}
+	footer {
+		width: 90%;
+	}
+}

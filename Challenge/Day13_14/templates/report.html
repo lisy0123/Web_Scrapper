@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>Job Search | {{search}}</title>
+		<link rel="stylesheet" href="{{url_for('static', filename='css/base.css')}}"/>
+	</head>
+	<body>
+		<div clas="container">
+			<header>
+				<a href="/">Jobs Search</a>
+				<ul>
+					<li><a href="https://weworkremotely.com/">WEWORKREMOTELY</a></li>
+					<li><a href="https://stackoverflow.com/jobs">STACKOVERFLOW</a></li>
+					<li><a href="https://remoteok.io/">REMOTEOK</a></li>
+				</ul>
+			</header>
+			<div class="result">
+				<h1>Search Result</h1>
+				<p>{{nums}} {{search}} Search!</p>
+			</div>
+			<div class="csv">
+				<a href="/export?word={{search}}">{ Export to CSV }</a>
+			</div>
+			<table>
+				<tr>
+					<th>🧑‍💻 Tile</th>
+					<th>🏢 Company</th>
+					<th>📍 Location</th>
+					<th>🔗 Link</th>
+				</tr>
+				{% for job in jobs %}
+					<tr>
+						<td width=30%>{{job.title}}</td>
+						<td width=30%>{{job.company}}</td>
+						<td width=30%>{{job.location}}</td>
+						<td width=10%><a href = "{{job.apply_link}}" target = "_blank">Apply</a></td>
+					</tr>
+				{% endfor %}
+			</table>
+			<footer>
+				Made by <a href="https://github.com/lisy0123">Sangeun Lee</a> for <a href="https://nomadcoders.co/python-challenge">Nomadcoders's Challenge</a>.
+			</footer>
+		</div>
+	</body>
+</html>

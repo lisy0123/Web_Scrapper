@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>Job Search | Home</title>
+		<link rel="stylesheet" href="{{url_for('static', filename='css/base.css')}}"/>
+	</head>
+	<body>
+		<div clas="container">
+			<header>
+				<a href="/">Jobs Search</a>
+				<ul>
+					<li><a href="https://weworkremotely.com/">WEWORKREMOTELY</a></li>
+					<li><a href="https://stackoverflow.com/jobs">STACKOVERFLOW</a></li>
+					<li><a href="https://remoteok.io/">REMOTEOK</a></li>
+				</ul>
+			</header>
+			<section>
+				<p>Search Remote Job</p>
+				<form action="/report" method="get">
+					<input type="text" placeholder="Enter a job title or keyword and press enter!" required name="word" />
+				</form>
+			</section>
+			<footer>
+				Made by <a href="https://github.com/lisy0123">Sangeun Lee</a> for <a href="https://nomadcoders.co/python-challenge">Nomadcoders's Challenge</a>.
+			</footer>
+		</div>
+	</body>
+</html>

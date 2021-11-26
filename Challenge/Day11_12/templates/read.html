@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Reddit Reader </title>
+	<link href="https://andybrewer.github.io/mvp/mvp.css" rel="stylesheet"></link>
+</head>
+
+<body>
+	<header>
+		<h1>
+			<a href="/">Reddit Reader</a>
+		</h1>
+		<h3>Reading : 
+			{% for word in words %}
+				r/{{word}} 
+			{% endfor %}
+		</h3>
+	</header>
+	<main>
+		{% for thing in things %}
+			<div>
+				<h3>
+					<a href="https://reddit.com{{thing.link}}" target="_blank">{{thing.title}}</a>
+				</h3>
+				<h4>{{thing.nums}} upvotes · r/{{thing.search}}</h4>
+				<hr>
+			</div>
+		{% endfor %}
+	</main>
+</body>
+
+</html>
