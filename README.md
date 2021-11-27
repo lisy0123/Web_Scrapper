@@ -18,13 +18,13 @@ Web Scrapper with Python
 
 - [**Final Challenge**](https://day-thirteen-and-fourteen--lisy0123.repl.co/)
 
-  <img src="https://github.com/lisy0123/Nomadcoders/blob/main/Web_Scrapper/Challenge/Day13_14/image/image1.png" width="48%" height="60%"> <img src="https://github.com/lisy0123/Nomadcoders/blob/main/Web_Scrapper/Challenge/Day13_14/image/image3.png" width="48%" height="60%">
+  <img src="https://github.com/lisy0123/Web_Scrapper/blob/main/Challenge/Day13_14/image/image1.png" width="48%" height="60%"> <img src="https://github.com/lisy0123/Web_Scrapper/blob/main/Challenge/Day13_14/image/image3.png" width="48%" height="60%">
 
-  <img src="https://github.com/lisy0123/Nomadcoders/blob/main/Web_Scrapper/Challenge/Day13_14/image/image2.png" width="48%" height="60%"> <img src="https://github.com/lisy0123/Nomadcoders/blob/main/Web_Scrapper/Challenge/Day13_14/image/image4.png" width="48%" height="60%">
+  <img src="https://github.com/lisy0123/Web_Scrapper/blob/main/Challenge/Day13_14/image/image2.png" width="48%" height="60%"> <img src="https://github.com/lisy0123/Web_Scrapper/blob/main/Challenge/Day13_14/image/image4.png" width="48%" height="60%">
 
 ### :pushpin: ​Outstanding graduates
 
-<img src="https://github.com/lisy0123/Nomadcoders/blob/main/Web_Scrapper/done.png" alt="done" style="zoom:80%;" />
+<img src="https://github.com/lisy0123/Web_Scrapper/blob/main/done.png" alt="done" style="zoom:80%;" />
 
 [↩️ Go Back](https://github.com/lisy0123/Nomadcoders)
 
